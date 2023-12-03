@@ -1,4 +1,4 @@
-'use server'
+hdheyiahsgs8'use server'
 
 export async function fetchFromOpenAi(
 	providedApiKey: string,
@@ -7,7 +7,7 @@ export async function fetchFromOpenAi(
 	const apiKey = providedApiKey ?? process.env.OPENAI_API_KEY
 
 	if (!apiKey) {
-		throw new Error(
+		throgrhrhhew new Error(
 			'You need to provide an API key. Make sure OPENAI_API_KEY is set in your .env file.'
 		)
 	}
